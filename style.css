@@ -12,40 +12,43 @@ body{
 
 header{
     background-image: linear-gradient(to bottom , #3CD781 , #1A5C38);
-    height: 200px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 h1#titulo-topo {
     text-align: center;
-    display: block;
-    width: 50%;
-    margin: auto;
+    display: block;    
+    margin-bottom: 20px;
     color: white;    
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
-    padding-top: 20px;   
-    font-size: 2.5em;     
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);  
+    font-size: 3em;     
 }
 header p{
-    display: block;
-    width: 48%;
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
     margin: auto;
-    color: white;       
-    font-size: 1.4em;
-    text-align: center;    
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);   
 }
 #menu-topo{
-    margin: 0;
-    padding: 80px 0px 0px 0px;
-    background-color:#1A5C38 ;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    background-color: #1A5C38;
 }
-#menu-topo a{
-    font-size: 1.2em;
+#menu-topo a{    
     color: #84E1AD;
+    padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
-    margin-right: 10px;
     font-weight: bold;
-    padding: 5px;    
+    transition-duration: .5s;   
 }
 #menu-topo a:hover {
     text-decoration: underline;
@@ -61,11 +64,11 @@ main{
     border-bottom-right-radius: 10px;
     margin-bottom: 20px;
 }
-#titulo-article{
-    margin-top: 0;
-    font-family:'idroid';
-    font-size: 2.5em;
-    color: #397253;
+#titulo-article{    
+    font-family:'idroid';    
+    color: #397253;    
+    font-weight: normal;
+    font-size: 1.8em;
 }
 .principal p {
     font-size: 1;
@@ -96,6 +99,7 @@ picture > img{
     height: 100%;    
 }
 #bug-img {
+    max-width: 350px;
     display: block;
     margin: auto;
 }
