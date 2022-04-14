@@ -16,25 +16,32 @@ header{
 }
 
 h1#titulo-topo {
-    color: white;
-    text-align: center;
+    display: block;
+    width: 50%;
+    margin: auto;
+    color: white;    
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
     padding-top: 20px;   
-    font-size: 1.8em; 
+    font-size: 2.5em; 
 }
 header p{
-    text-align: center;
-    color: white;
-    width: 450px;
+    display: block;
+    width: 48%;
     margin: auto;
-   font-size: 1.2em;
+    color: white;
+    width: 450px;    
+    font-size: 1.4em;
+    text-align: center;
 }
 #menu-topo{
-    margin-top: 65px;
+    margin: 0;
+    padding: 10px;
+    background-color:#1A5C38 ;
 }
 #menu-topo a{
-    color: white;
+    font-size: 1.2em;
+    color: #84E1AD;
     text-decoration: none;
     margin-right: 10px;
     font-weight: bold;
@@ -97,13 +104,13 @@ picture > img{
     background-color:#1A5C38 ;
     position: relative;
     margin:20px -20px;
-    padding-bottom: 50%;
+    padding:5% 5% 50% 5%;
 }
 
 #video iframe{
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 13%;
+    left: 16%;
     width: 70%;
     height: 70%;
 }
