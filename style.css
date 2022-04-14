@@ -24,8 +24,7 @@ h1#titulo-topo {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
     padding-top: 20px;   
-    font-size: 2.5em; 
-    box-sizing: content-box;
+    font-size: 2.5em;     
 }
 header p{
     display: block;
@@ -33,8 +32,7 @@ header p{
     margin: auto;
     color: white;       
     font-size: 1.4em;
-    text-align: center;
-    box-sizing: content-box;
+    text-align: center;    
 }
 #menu-topo{
     margin: 0;
@@ -47,8 +45,7 @@ header p{
     text-decoration: none;
     margin-right: 10px;
     font-weight: bold;
-    padding: 5px;
-    margin-top: 100px;
+    padding: 5px;    
 }
 #menu-topo a:hover {
     text-decoration: underline;
