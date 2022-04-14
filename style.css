@@ -75,6 +75,10 @@ q{
     color: #25583c;
     font-family:'idroid' ;
 }
+picture{
+    display: block;
+    width: 100%;
+}
 picture > img{
     display: block;
     margin: auto;
