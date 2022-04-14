@@ -33,6 +33,7 @@ header p{
     width: 450px;    
     font-size: 1.4em;
     text-align: center;
+    box-sizing: content-box;
 }
 #menu-topo{
     margin: 0;
