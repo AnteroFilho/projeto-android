@@ -75,6 +75,10 @@ q{
     color: #25583c;
     font-family:'idroid' ;
 }
+picture > img{
+    display: block;
+    margin: auto;
+}
 .fotos{
     width: 100%;
     height: 100%;    
@@ -85,13 +89,17 @@ q{
 }
 #video {
     background-color:#1A5C38 ;
+    position: relative;
     margin:20px -20px;
-    padding: 20px;
+    padding-bottom: 50%;
 }
 
 #video iframe{
-    display: block;
-    margin: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 #learn-more {
